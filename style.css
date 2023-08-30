@@ -27,4 +27,17 @@ body {
   position: relative;
 }
 
-
+.button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
