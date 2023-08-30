@@ -41,3 +41,8 @@ body {
   transition: transform .2s ease-out;
   z-index: -1;
 }
+
+.button:hover:after {
+  transform: translate(0, 0);
+}
+
