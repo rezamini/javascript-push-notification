@@ -55,4 +55,9 @@ body {
   outline: 0;
 }
 
+@media (min-width: 768px) {
+  .button {
+    padding: 0 40px;
+  }
+}
 
